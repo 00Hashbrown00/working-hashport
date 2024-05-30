@@ -5,8 +5,10 @@ import { LazyHashportWidget } from '@hashport/widget';
 function App() {
     return (
         <>
-            <h1>Lynxify Demo</h1>
-            <LazyHashportWidget label="Open Port" widgetProps={{ mode: 'testnet' }} />
+            <img src='logo.png'/>
+            <h1>Lynxify Demo
+            </h1>
+            <LazyHashportWidget label="Open Portal" widgetProps={{ mode: 'testnet' }} />
         </>
     );
 }
